@@ -3,13 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>intro-component-with-sign-up-form</title>
     <link rel="stylesheet" href="./css/style.min.css">
     <link rel="stylesheet" href="./scss/style.scss">
 </head>
 <body>
-    <header class="header"></header>
-    <main class="main"></main>
-    <footer class="footer"></footer>
+    <div class="contact__container container">
+        <div class="left">
+          <h1 class="container__title">Learn to code by<br>watching others</h1>
+          <p class="container__descraption">
+            See how experienced developers solve problems in real-time.<br>
+            Watching scripted tutorials is great, but understanding how<br>
+            developers think is invaluable.
+          </p>
+        </div>
+        <div class="right">
+          <div class="trial-banner">Try it free 7 days then $20/mo. thereafter</div>
+           <div class="form__input"> 
+            <input class="input" type="text" placeholder="First Name" />
+            <input class="input" type="text" placeholder="Last Name" />
+            <input class="input" type="email" placeholder="Email Address" />
+            <input class="input" type="password" placeholder="Password" />
+            <button class="btn btn__green">CLAIM YOUR FREE TRIAL</button>
+          <p class="right__descraption" >By clicking the button, you are agreeing to our <a class="text__orange" href="#">Terms and Services</a></p>
+        </div>
+          
+        </div>
+      </div>    
 </body>
 </html>
